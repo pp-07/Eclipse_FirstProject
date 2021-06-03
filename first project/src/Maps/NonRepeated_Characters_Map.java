@@ -28,7 +28,7 @@ public class NonRepeated_Characters_Map {
 		if (x.getValue()==1) {
 			
 			System.out.println(x.getKey());
-			
+			System.out.println(x);
 		}
 	
 		

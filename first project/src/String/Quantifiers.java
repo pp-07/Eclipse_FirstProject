@@ -12,8 +12,6 @@ public class Quantifiers {
          //System.out.println(patt.equals(str1));	
          //Or regex
 	
-	
-	
 	String pattt="ab(a|b|%|^|$|$|$|$)?";
 	
 	String str2="ab";
@@ -24,6 +22,10 @@ public class Quantifiers {
 	String p="abc+";
 	String str3="ab";
 	System.out.println(str3.matches(p));
+	
+	String x ="www\\.(dez|dezelearn)\\.(com|us)";
+	String y = "www.dez.us";
+	System.out.println(y.matches(x));
 	}
 	
 }

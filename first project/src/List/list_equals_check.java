@@ -21,6 +21,9 @@ public class list_equals_check {
 	l2.add(34);
 	l2.add(45);
 	
+
+	
+	
 	System.out.println(l1.equals(l2));
 
 	}

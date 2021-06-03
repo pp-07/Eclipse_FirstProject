@@ -1,8 +1,10 @@
 package Maps;
 
 import java.util.ArrayList;
+import java.util.Collection;
 import java.util.Collections;
 import java.util.HashMap;
+import java.util.HashSet;
 import java.util.Map.Entry;
 
 public class Sorting_Values_Map {
@@ -13,14 +15,8 @@ public class Sorting_Values_Map {
 		hmap.put("onion", 50);
 		hmap.put("Brinjal",26);
 		hmap.put("cucumber", 8);
-		hmap.put("spinach", 3);
-		
-	var set= hmap.keySet();
-	System.out.println(set);
-
-	
-	//incomplete 
-         
+		hmap.put("spinach", 8);
+//incomplete
 }
 
 	}

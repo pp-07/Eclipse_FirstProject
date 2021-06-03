@@ -1,17 +1,19 @@
 package Maps;
 
 import java.util.HashMap;
+import java.util.LinkedHashMap;
 import java.util.Map.Entry;
+
 
 public class Duplicate_Characters_Map {
 
 	public static void main(String[] args) {
-		String s = "abbbbccsddfeeee";
+		String s = "abbbbcbcsbddfeeee";
 		char y[] = s.toCharArray();  //converting String to array
 
-		var hmap = new HashMap<Character, Integer>();
-		int i = 0;
-		while (i <= y.length - 1) {
+		HashMap<Character,Integer> hmap = new HashMap<Character, Integer>();
+		for (int i=0;i<=y.length-1;i++) {
+			
 			if (hmap.containsKey(y[i]) == false) {
 				hmap.put(y[i], 1);
 
@@ -21,7 +23,7 @@ public class Duplicate_Characters_Map {
 				hmap.put(y[i], newval);
 
 			}
-			i++;
+			
 		}
 		System.out.println(hmap);
 

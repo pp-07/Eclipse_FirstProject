@@ -6,7 +6,7 @@ import java.util.Map.Entry;
 public class Max_Occurnce_Character {
 
 	public static void main(String[] args) {
-		String s = "ssillyspider";
+		String s = "ssillyspsider";
 		char[] arr=s.toCharArray();
 		var hmap=new LinkedHashMap<Character,Integer>();
 		int i=0;

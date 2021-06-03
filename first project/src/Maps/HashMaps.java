@@ -27,7 +27,10 @@ Iterator it1=map.keySet().iterator();	  //iterating on keys
 while(it1.hasNext()) {
 	System.out.println(it1.next());
 }
-
+Iterator it2=map.entrySet().iterator();	  //iterating on keys
+while(it2.hasNext()) {
+	System.out.println(it2.next());
+}
 
 System.out.println("\n");
 for(String x:map.keySet()) {         //iterating by using advance for loop 
@@ -39,6 +42,8 @@ for(Integer y:map.values()) {
 
 for(Entry<String, Integer> e:map.entrySet()) {
 	System.out.println(e);
+	System.out.println(e.getValue());
+	System.out.println(e.getKey());
 	}
 
 

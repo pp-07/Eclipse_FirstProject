@@ -1,6 +1,7 @@
 package List;
 
 import java.util.ArrayList;
+import java.util.HashSet;
 import java.util.LinkedList;
 import java.util.ListIterator;
 
@@ -19,7 +20,10 @@ public class list_program {
 		arr1=arr.toArray(arr1);
 		
 		
+		HashSet <Double> hset =new HashSet<Double>();
 		
+		hset.addAll(arr);
+		System.out.println(hset);
 		
 	
 		

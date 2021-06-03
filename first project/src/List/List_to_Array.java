@@ -3,12 +3,13 @@ package List;
 import java.util.ArrayList;
 import java.util.Arrays;
 import java.util.Collections;
+import java.util.LinkedList;
 import java.util.List;
 
 public class List_to_Array {
 
 	public static void main(String[] args) {
-		List<Integer> list = new ArrayList<Integer>();
+		LinkedList<Integer> list = new LinkedList<Integer>();
 		list.add(209);
 		list.add(345);
 		list.add(32);

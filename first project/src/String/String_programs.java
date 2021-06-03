@@ -18,6 +18,7 @@ StringBuilder sb =new StringBuilder("LMNOP"); //using StringBuilder Class to rev
 
 sb.reverse();
 sb.deleteCharAt(1);
+
 System.out.println(sb.substring(0,2));
 System.out.println(sb);
 
@@ -46,6 +47,7 @@ System.out.println(s.isEmpty());
 System.out.println(s.contains("lo"));
 System.out.println(s.charAt(2));
 System.out.println(s.substring(0,3));
+System.out.println(s.equalsIgnoreCase("HELLO"));
 
 
 
@@ -72,6 +74,13 @@ finally {
 String l= "AbCd";
 String ll ="abcd";
 System.out.println(l.equalsIgnoreCase(ll));
+
+for (int i=0,j=0;i<1;++i,j++) {
+	
+	System.out.println(i +"jjj" +j);
+}
+
+
   
 
 
